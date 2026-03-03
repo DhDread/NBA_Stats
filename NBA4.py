@@ -6,7 +6,7 @@ from nba_api.stats.endpoints import ScoreboardV2, BoxScoreSummaryV3, BoxScoreTra
 from tqdm import tqdm  # progress bar
 
 # CONFIG
-DAYS_BACK = 3
+DAYS_BACK = 2
 PAUSE_BETWEEN_REQUESTS = 2  # seconds
 
 def fetch_scoreboard(date_str):
